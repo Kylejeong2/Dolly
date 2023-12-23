@@ -1,0 +1,147 @@
+/* Basic CSS Reset */
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffe6e6; /* Light pink background */
+}
+
+header {
+    background-color: #ffc0cb; /* Pink header */
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #ff69b4; /* Pink navigation bar */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #d46a9b; /* Darker pink on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffc0cb; 
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Wheel Styles */
+.wheel-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.wheel {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 10px solid #ff69b4; /* Pink border */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.wheel-container {
+    width: 100%;
+    height: 100%;
+    transition: transform 6s ease-out;
+}
+
+.wheel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.spin-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff69b4; /* Pink button */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+section {
+    padding: 40px 20px;
+    background-color: #fff; /* White background for sections */
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for sections */
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff69b4; /* Pink color for section headings */
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* ... (any other specific elements you want to style with DM Sans) ... */
+
+
+#timer {
+    text-align: center;
+}
+
+input[type="text"],
+button {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
