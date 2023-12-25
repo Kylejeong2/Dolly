@@ -3,28 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>I Love You</title>
+    <title>I Love You❤️</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
 <body>
-
-    <header>
-        <h1>Kyle & Dolly</h1>
-        <!-- You can add any other header content here -->
-    </header>
-
     <nav>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">Timer</a></li>
             <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#choose">Wheel</a></li>
             <li><a href="#interactivity">Music</a></li>
             <li><a href="#special">Wishlist</a></li>
         </ul>
     </nav>
+
+    <header>
+        <h1>Kyle & Dolly❤️</h1>
+        <!-- You can add any other header content here -->
+    </header>
+
+    
 
     <main>
         <section id="about">
@@ -35,8 +38,93 @@
         </section>
 
         <section id="gallery">
-            <h2>Favorite Pictures</h2>
-            <!-- Insert Photo Gallery and Videos here -->
+            
+           
+        <div class="container text-center">
+            <h2 style="color: black;">Our Gallery Wall</h2>
+            <div class="row">
+              <div class="col">
+                <div class="gallery-item" style="transform: rotate(180deg);">
+                    <img src="images/IMG_0204.JPG" alt="Image 1">
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="gallery-item" style="transform: rotate(180deg);">
+                <img src="images/IMG_2144.JPG" alt="Image 1">
+            </div>
+            </div>
+             
+              <div class="col">
+                  <div class="gallery-item" style="transform: rotate(180deg);">
+                    <img src="images/IMG_0240.JPG" alt="Image 1">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="gallery-item" style="transform: rotate(180deg);">
+                        <img src="images/IMG_0379.JPG" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-item">
+                        <img src="images/IMG_0446.JPG" alt="Image 1">
+                     </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-item">
+                    <img src="images/IMG_1630.JPG" alt="Image 2">
+                </div>
+                </div>
+              </div>
+
+              <div class="row">
+        
+                <div class="col">
+                   <div class="gallery-item">
+                       <img src="images/IMG_1889.JPG" alt="Image 2">
+                      </div>
+                </div>
+
+                <div class="col">
+                    <div class="gallery-item">
+                     <img src="images/IMG_2518.JPG" alt="Image 1">
+                 </div>
+                 </div>
+
+                <div class="col">
+                    <div class="gallery-item">
+                        <img src="images/IMG_2304.JPG" alt="Image 2">
+                    </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                    <div class="gallery-item">
+                        <img src="images/IMG_1650.JPG" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-item">
+                        <img src="images/IMG_4473.JPG" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-item">
+                      <img src="images/IMG_0213.JPG" alt="Image 2">
+                  </div>
+                </div>
+              </div>
+          </div>
+
+        </section>
+
+        <section id="choose">
+            <h2>Wheel of Food Ideas</h2>
+            <iframe src="https://pickerwheel.com/emb/?choices=Pizza,Sushi,Tacos,Fast Food,American,Pasta,Brunch,Breakfast,Ethnic Food,BBQ,Street food,Soups/Hotpot,Sandwich" width="100%" height="550px" scrolling="no" frameborder="0"></iframe>
         </section>
 
         <section id="interactivity">
@@ -45,22 +133,21 @@
         </section>
 
         <section id="special">
-            <h2>Wish List</h2>
+            <h2>Wish List / Doesn't work yet</h2>
             <section>
-                <h2>Add Items to Wishlist</h2>
+                <h3>Add Items to Wishlist</h3>
                 <input type="text" id="itemInput" placeholder="Enter item">
                 <button onclick="addItem()">Add to Wishlist</button>
             </section>
     
             <section>
-                <h2>Wishlist</h2>
                 <ul id="wishlist"></ul>
             </section>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023/p>
+        <p>&copy; 2023 </p>
     </footer>
 
     <script src="script.js"></script>
